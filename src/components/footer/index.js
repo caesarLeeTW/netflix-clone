@@ -8,25 +8,25 @@ import {
   Break,
 } from "./styles/footer";
 
-const Footer = ({ children, ...resProps }) => (
-  <Container {...resProps}>{children}</Container>
+const Footer = ({ children, ...restProps }) => (
+  <Container {...restProps}>{children}</Container>
 );
 
-Footer.Row = ({ children, ...resProps }) => <Row {...resProps}>{children}</Row>;
-Footer.Column = ({ children, ...resProps }) => (
-  <Column {...resProps}>{children}</Column>
+Footer.Row = ({ children, ...restProps }) => <Row {...restProps}>{children}</Row>;
+Footer.Column = ({ children, ...restProps }) => (
+  <Column {...restProps}>{children}</Column>
 );
-Footer.Link = ({ children, ...resProps }) => (
-  <Link {...resProps}>{children}</Link>
+Footer.Link = ({ children, ...restProps }) => (
+  <Link {...restProps}>{children}</Link>
 );
-Footer.Title = ({ children, ...resProps }) => (
-  <Title {...resProps}>{children}</Title>
+Footer.Title = ({ children, ...restProps }) => (
+  <Title {...restProps}>{children}</Title>
 );
-Footer.Text = ({ children, ...resProps }) => (
-  <Text {...resProps}>{children}</Text>
+Footer.Text = ({ children, ...restProps }) => (
+  <Text {...restProps}>{children}</Text>
 );
-Footer.Break = ({ children, ...resProps }) => (
-  <Break {...resProps}>{children}</Break>
+Footer.Break = ({ children, ...restProps }) => (
+  <Break {...restProps}>{children}</Break>
 );
 
 export default Footer;
