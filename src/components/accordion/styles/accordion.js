@@ -16,7 +16,7 @@ export const Item = styled.div`
   margin: auto;
   width: 100%;
   margin-bottom: 10px;
-  max-width: 670px;
+  max-width: 700px;
 
   &:first-of-type {
     margin-top: 3em;
