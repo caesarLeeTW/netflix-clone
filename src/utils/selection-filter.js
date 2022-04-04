@@ -19,7 +19,7 @@ export default function selectionFilter({ series, films }) {
       },
       {
         title: "Feel Good",
-        data: series.filter((item) => item.genre === "fell-good"),
+        data: series.filter((item) => item.genre === "feel-good"),
       },
     ],
     films: [
