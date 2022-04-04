@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Container,
   Row,
@@ -12,7 +13,9 @@ const Footer = ({ children, ...restProps }) => (
   <Container {...restProps}>{children}</Container>
 );
 
-Footer.Row = ({ children, ...restProps }) => <Row {...restProps}>{children}</Row>;
+Footer.Row = ({ children, ...restProps }) => (
+  <Row {...restProps}>{children}</Row>
+);
 Footer.Column = ({ children, ...restProps }) => (
   <Column {...restProps}>{children}</Column>
 );

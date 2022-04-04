@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import { Background, Container, Logo, ButtonLink } from "./styles/header";
 
