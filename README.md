@@ -6,6 +6,6 @@
 - Built with react router to build multi-page like SPA.
 - Built with compound components and styled components to group related components and easiler to share state between components.
 - Manage app-wide state with context api.
-- Use Firebase cloud database to store and fetch data.
+- Use Firebase cloud database to store and fetch data and auth servie to manage user authentication.
 
 
