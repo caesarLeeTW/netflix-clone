@@ -1,6 +1,6 @@
 # netflix-clone
 - A netflix clone project following the [tutorial](https://www.youtube.com/watch?v=x_EEwGe-a9o) by [Karl Hadwen](https://github.com/karlhadwen/netflix).
-- Click here to watch the [demo](https://netflix-clone-e307f.web.app/browse/)
+- Click here to watch the [demo](https://netflix-clone-e307f.web.app/browse/).
 
 ## Features
 - Built with react router to build multi-page like SPA.
